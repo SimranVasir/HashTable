@@ -1,0 +1,5 @@
+Hash: Hash.o
+	g++ -Wall -g -o Hash Hash.o
+
+Hash.o: Hash.cpp
+	g++ -Wall -g -c Hash.cpp
